@@ -1,0 +1,6 @@
+.mat-tab-body-content{
+    overflow: hidden;
+}
+.hideField{
+    pointer-events: none;
+}

@@ -1,0 +1,187 @@
+<div style="height: 92vh;overflow-y: auto;">
+  <mat-card style="background-color: aliceblue;margin: 1.5%;min-height: 92%;">
+
+    <div style="text-align: center;font-family: monospace;font-weight: 900;font-size: 17px;text-transform: uppercase;">
+      {{this.matchResult}}</div>
+
+    <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+        <mat-tab style="font-family: monospace;" label={{this.firstTeam}}>
+
+            <div class="container">
+              <div class="row" style="padding-top: 1rem; ">
+                <div class="col-lg">
+                  <p class="match_no" style="font-family: monospace;float: left;font-weight: 800;font-size: 20px;">Batting
+                  </p>
+                </div>
+                <div class="col-lg">
+                </div>
+                <div class="col-lg">
+                  <p style="float: right;width: 7vh;text-align: center;">S/R</p>
+                  <p style="float: right;width: 7vh;text-align: center;">6s</p>
+                  <p style="float: right;width: 7vh;text-align: center;">4s</p>
+                  <p style="float: right;width: 7vh;text-align: center;">B</p>
+                  <p style="float: right;width: 7vh;text-align: center;">R</p>
+                </div>
+              </div>
+              <hr style="padding:0;margin:0">
+              <div class="row" *ngFor="let player of this.firstInningsBatsman">
+                <div class="col-lg">
+                  <p class="match_no" style="font-family: monospace;float: left;">
+                    <span style="font-size: 17px;font-weight: 800;">
+                      {{player.name}}
+                    </span>
+                  </p>
+                </div>
+                <div class="col-lg">
+                  <p> <span class="dot" *ngIf="player.dismissal !== 'not out'" style="background-color: red;"></span>
+                    <span class="dot" *ngIf="player.dismissal === 'not out' || player.dismissal === 'batting'" style="background-color: green;"></span>
+                    <span style="font-family: auto;">
+                      {{player.dismissal}}
+                    </span></p>
+                </div>
+                <div class="col-lg">
+                  <p style="float: right;width: 7vh;text-align: center;">{{player.sr}}</p>
+                  <p style="float: right;width: 7vh;text-align: center;">{{player.sixes}}</p>
+                  <p style="float: right;width: 7vh;text-align: center;">{{player.fours}}</p>
+                  <p style="float: right;width: 7vh;text-align: center;">{{player.balls}}</p>
+                  <p style="float: right;width: 7vh;text-align: center;">{{player.runs}}</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="container">
+                <hr style="height: 2px;background-color: black;">
+                <div class="row">
+                    <div class="col-lg">
+                  <p class="match_no" style="font-family: monospace;float: left;font-weight: 800;font-size: 20px;">Bowling
+                  </p>
+                </div>
+                <div class="col-lg">
+                </div>
+                <div class="col-lg">
+                  <p style="float: right;width: 6vh;text-align: center;">Econ</p>
+                  <p style="float: right;width: 6vh;text-align: center;">W</p>
+                  <p style="float: right;width: 6vh;text-align: center;">R</p>
+                  <p style="float: right;width: 6vh;text-align: center;">M</p>
+                  <p style="float: right;width: 6vh;text-align: center;">O</p>
+                </div>
+              </div>
+              <hr style="padding:0;margin:0">
+              <div class="row" *ngFor="let player of this.firstInningsBowlers">
+                <div class="col-lg">
+                  <p class="match_no" style="font-family: monospace;float: left;">
+                    <span style="font-size: 17px;font-weight: 800;">
+                      {{player.name}}
+                    </span>
+                  </p>
+                </div>
+                <div class="col-lg">
+                  <!-- <p> <span class="dot" *ngIf="player.dismissal !== 'not out'" style="background-color: red;"></span>
+                      <span class="dot" *ngIf="player.dismissal === 'not out'" style="background-color: green;"></span>
+                      <span style="font-family: auto;">
+                        {{player.dismissal}}
+                      </span></p> -->
+                </div>
+                <div class="col-lg">
+                  <p style="float: right;width: 6vh;text-align: center;">{{player.economy}}</p>
+                  <p style="float: right;width: 6vh;text-align: center;">{{player.wicket}}</p>
+                  <p style="float: right;width: 6vh;text-align: center;">{{player.runs}}</p>
+                  <p style="float: right;width: 6vh;text-align: center;">{{player.maidens}}</p>
+                  <p style="float: right;width: 6vh;text-align: center;">{{player.overs}}</p>
+                </div>
+              </div>
+            </div>
+    
+          </mat-tab>
+      <mat-tab style="font-family: monospace;" label="{{this.secondTeam}}">
+
+        <div class="container">
+          <div class="row" style="padding-top: 1rem; ">
+            <div class="col-lg">
+              <p class="match_no" style="font-family: monospace;float: left;font-weight: 800;font-size: 20px;">Batting
+              </p>
+            </div>
+            <div class="col-lg">
+            </div>
+            <div class="col-lg">
+              <p style="float: right;width: 7vh;text-align: center;">S/R</p>
+              <p style="float: right;width: 7vh;text-align: center;">6s</p>
+              <p style="float: right;width: 7vh;text-align: center;">4s</p>
+              <p style="float: right;width: 7vh;text-align: center;">B</p>
+              <p style="float: right;width: 7vh;text-align: center;">R</p>
+            </div>
+          </div>
+          <hr style="padding:0;margin:0">
+          <div class="row" *ngFor="let player of this.secondInningsBatsman">
+            <div class="col-lg">
+              <p class="match_no" style="font-family: monospace;float: left;">
+                <span style="font-size: 17px;font-weight: 800;">
+                  {{player.name}}
+                </span>
+              </p>
+            </div>
+            <div class="col-lg">
+              <p> <span class="dot" *ngIf="player.dismissal !== 'not out'" style="background-color: red;"></span>
+                <span class="dot" *ngIf="player.dismissal === 'not out'" style="background-color: green;"></span>
+                <span style="font-family: auto;">
+                  {{player.dismissal}}
+                </span></p>
+            </div>
+            <div class="col-lg">
+              <p style="float: right;width: 7vh;text-align: center;">{{player.sr}}</p>
+              <p style="float: right;width: 7vh;text-align: center;">{{player.sixes}}</p>
+              <p style="float: right;width: 7vh;text-align: center;">{{player.fours}}</p>
+              <p style="float: right;width: 7vh;text-align: center;">{{player.balls}}</p>
+              <p style="float: right;width: 7vh;text-align: center;">{{player.runs}}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <hr style="height: 2px;background-color: black;">
+            <div class="row">
+                <div class="col-lg">
+              <p class="match_no" style="font-family: monospace;float: left;font-weight: 800;font-size: 20px;">Bowling
+              </p>
+            </div>
+            <div class="col-lg">
+            </div>
+            <div class="col-lg">
+              <p style="float: right;width: 6vh;text-align: center;">Econ</p>
+              <p style="float: right;width: 6vh;text-align: center;">W</p>
+              <p style="float: right;width: 6vh;text-align: center;">R</p>
+              <p style="float: right;width: 6vh;text-align: center;">M</p>
+              <p style="float: right;width: 6vh;text-align: center;">O</p>
+            </div>
+          </div>
+          <hr style="padding:0;margin:0">
+          <div class="row" *ngFor="let player of this.secondInningsBowlers">
+            <div class="col-lg">
+              <p class="match_no" style="font-family: monospace;float: left;">
+                <span style="font-size: 17px;font-weight: 800;">
+                  {{player.name}}
+                </span>
+              </p>
+            </div>
+            <div class="col-lg">
+              <!-- <p> <span class="dot" *ngIf="player.dismissal !== 'not out'" style="background-color: red;"></span>
+                  <span class="dot" *ngIf="player.dismissal === 'not out'" style="background-color: green;"></span>
+                  <span style="font-family: auto;">
+                    {{player.dismissal}}
+                  </span></p> -->
+            </div>
+            <div class="col-lg">
+              <p style="float: right;width: 6vh;text-align: center;">{{player.economy}}</p>
+              <p style="float: right;width: 6vh;text-align: center;">{{player.wicket}}</p>
+              <p style="float: right;width: 6vh;text-align: center;">{{player.runs}}</p>
+              <p style="float: right;width: 6vh;text-align: center;">{{player.maidens}}</p>
+              <p style="float: right;width: 6vh;text-align: center;">{{player.overs}}</p>
+            </div>
+          </div>
+        </div>
+
+      </mat-tab>
+    </mat-tab-group>
+
+  </mat-card>
+</div>

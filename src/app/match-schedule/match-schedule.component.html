@@ -1,0 +1,21 @@
+<div style="height: 92vh;overflow-y: scroll;">
+    <mat-card style="background-color: aliceblue;margin: 1.5%;" *ngFor="let match of this.matchSchedule.value;let i=index" (click)="getResult(i)">
+        <div class="row">
+          <div class="col">
+            <p class="match_no">Match {{match.match_no}}</p>
+            <p class="match_name">{{match.match_name.split(',')[0]}}</p>
+            <p class="match_result" *ngIf="match.match_result!=='NA'">{{match.match_result}}</p>
+          </div>
+          <div class="" style="background-color: black;width: .1vh; height: 10vh;">
+          </div>
+          <div class="col">
+            <p class="match_name">{{match.match_date}} , {{match.match_time}}</p>
+            <p class="match_name">{{match.match_venue}}</p>
+          </div>
+          <div class="" style="margin: 1%;">
+            <button *ngIf="match.match_result !=='NA'" style="pointer-events: none;" class="btn btn-success">Completed</button>
+            <button *ngIf="match.match_result ==='NA'" style="pointer-events: none;" class="btn btn-warning">Yet to start</button>
+          </div>
+        </div>
+      </mat-card>
+</div>

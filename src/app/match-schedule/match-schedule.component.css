@@ -1,0 +1,28 @@
+.vertical {
+    border-left: 5px solid black;
+    height: 200px;
+}
+.match_name{
+    font-size: 2vh;
+    font-weight: 500;
+    font-family: monospace;
+}
+.match_no{
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: monospace;
+}
+.match_result{
+    font-size: 2.5vh;
+    font-weight: bold;
+    font-family: monospace;
+    color: cornflowerblue;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* .showPointer{
+    cursor: pointer;
+} */

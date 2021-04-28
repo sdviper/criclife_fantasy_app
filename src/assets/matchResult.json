@@ -1,0 +1,257 @@
+{
+  "Innings1": [{
+    "Batsman": [{
+      "balls": "25",
+      "dismissal": "c Jamieson b Chahal",
+      "fours": "4",
+      "name": "Ruturaj Gaikwad",
+      "runs": "33",
+      "sixes": "1",
+      "sr": "132.00"
+    }, {
+      "balls": "41",
+      "dismissal": "c Christian b Harshal Patel",
+      "fours": "5",
+      "name": "du Plessis",
+      "runs": "50",
+      "sixes": "1",
+      "sr": "121.95"
+    }, {
+      "balls": "18",
+      "dismissal": "c Devdutt Padikkal b Harshal Patel",
+      "fours": "1",
+      "name": "Raina",
+      "runs": "24",
+      "sixes": "3",
+      "sr": "133.33"
+    }, {
+      "balls": "7",
+      "dismissal": "c Jamieson b Harshal Patel",
+      "fours": "1",
+      "name": "Rayudu",
+      "runs": "14",
+      "sixes": "1",
+      "sr": "200.00"
+    }, {
+      "balls": "28",
+      "dismissal": "not out",
+      "fours": "4",
+      "name": "Ravindra Jadeja",
+      "runs": "62",
+      "sixes": "5",
+      "sr": "221.43"
+    }, {
+      "balls": "3",
+      "dismissal": "not out",
+      "fours": "0",
+      "name": "Dhoni (c) (wk)",
+      "runs": "2",
+      "sixes": "0",
+      "sr": "66.67"
+    }]
+  }, {
+    "Bowlers": [{
+      "economy": "8.00",
+      "maidens": "0",
+      "name": "Siraj",
+      "overs": "4",
+      "runs": "32",
+      "wicket": "0"
+    }, {
+      "economy": "10.30",
+      "maidens": "0",
+      "name": "Jamieson",
+      "overs": "3",
+      "runs": "31",
+      "wicket": "0"
+    }, {
+      "economy": "8.00",
+      "maidens": "0",
+      "name": "Chahal",
+      "overs": "3",
+      "runs": "24",
+      "wicket": "1"
+    }, {
+      "economy": "13.50",
+      "maidens": "0",
+      "name": "Navdeep Saini",
+      "overs": "2",
+      "runs": "27",
+      "wicket": "0"
+    }, {
+      "economy": "12.80",
+      "maidens": "0",
+      "name": "Harshal Patel",
+      "overs": "4",
+      "runs": "51",
+      "wicket": "3"
+    }, {
+      "economy": "6.00",
+      "maidens": "0",
+      "name": "Christian",
+      "overs": "2",
+      "runs": "12",
+      "wicket": "0"
+    }, {
+      "economy": "6.50",
+      "maidens": "0",
+      "name": "Washington Sundar",
+      "overs": "2",
+      "runs": "13",
+      "wicket": "0"
+    }]
+  }, {
+    "overs": "20",
+    "runs": 191,
+    "score": "191-4 (20 Ov)",
+    "team": "Chennai Super Kings",
+    "wickets": 4
+  }],
+  "Innings2": [{
+    "Batsman": [{
+      "balls": "7",
+      "dismissal": "c Dhoni b Sam Curran",
+      "fours": "1",
+      "name": "Virat Kohli (c)",
+      "runs": "8",
+      "sixes": "0",
+      "sr": "114.29"
+    }, {
+      "balls": "15",
+      "dismissal": "c Raina b Thakur",
+      "fours": "4",
+      "name": "Devdutt Padikkal",
+      "runs": "34",
+      "sixes": "2",
+      "sr": "226.67"
+    }, {
+      "balls": "11",
+      "dismissal": "c Ruturaj Gaikwad b Ravindra Jadeja",
+      "fours": "1",
+      "name": "Washington Sundar",
+      "runs": "7",
+      "sixes": "0",
+      "sr": "63.64"
+    }, {
+      "balls": "15",
+      "dismissal": "b Ravindra Jadeja",
+      "fours": "3",
+      "name": "Glenn Maxwell",
+      "runs": "22",
+      "sixes": "0",
+      "sr": "146.67"
+    }, {
+      "balls": "9",
+      "dismissal": "b Ravindra Jadeja",
+      "fours": "0",
+      "name": "AB de Villiers (wk)",
+      "runs": "4",
+      "sixes": "0",
+      "sr": "44.44"
+    }, {
+      "balls": "3",
+      "dismissal": "run out (Ravindra Jadeja)",
+      "fours": "0",
+      "name": "Daniel Christian",
+      "runs": "1",
+      "sixes": "0",
+      "sr": "33.33"
+    }, {
+      "balls": "13",
+      "dismissal": "run out (Tahir)",
+      "fours": "1",
+      "name": "Kyle Jamieson",
+      "runs": "16",
+      "sixes": "1",
+      "sr": "123.08"
+    }, {
+      "balls": "8",
+      "dismissal": "b Tahir",
+      "fours": "0",
+      "name": "Harshal Patel",
+      "runs": "0",
+      "sixes": "0",
+      "sr": "0.00"
+    }, {
+      "balls": "4",
+      "dismissal": "c Raina b Tahir",
+      "fours": "0",
+      "name": "Navdeep Saini",
+      "runs": "2",
+      "sixes": "0",
+      "sr": "50.00"
+    }, {
+      "balls": "21",
+      "dismissal": "not out",
+      "fours": "0",
+      "name": "Yuzvendra Chahal",
+      "runs": "8",
+      "sixes": "0",
+      "sr": "38.10"
+    }]
+  }, {
+    "Bowlers": [{
+      "economy": "12.50",
+      "maidens": "0",
+      "name": "Deepak Chahar",
+      "overs": "2",
+      "runs": "25",
+      "wicket": "0"
+    }, {
+      "economy": "8.80",
+      "maidens": "0",
+      "name": "Sam Curran",
+      "overs": "4",
+      "runs": "35",
+      "wicket": "1"
+    }, {
+      "economy": "2.80",
+      "maidens": "0",
+      "name": "Shardul Thakur",
+      "overs": "4",
+      "runs": "11",
+      "wicket": "1"
+    }, {
+      "economy": "3.20",
+      "maidens": "1",
+      "name": "Ravindra Jadeja",
+      "overs": "4",
+      "runs": "13",
+      "wicket": "3"
+    }, {
+      "economy": "4.00",
+      "maidens": "0",
+      "name": "Imran Tahir",
+      "overs": "4",
+      "runs": "16",
+      "wicket": "2"
+    }, {
+      "economy": "9.50",
+      "maidens": "0",
+      "name": "Dwayne Bravo",
+      "overs": "2",
+      "runs": "19",
+      "wicket": "0"
+    }]
+  }, {
+    "overs": "20",
+    "runs": 122,
+    "score": "122-9 (20 Ov)",
+    "team": "Royal Challengers Bangalore",
+    "wickets": 9
+  }],
+  "playing_eleven": {
+    "Chennai Super Kings": ["Ruturaj Gaikwad", "Faf du Plessis", "Suresh Raina", "Ambati Rayudu", "MS Dhoni (c & wk)", "Ravindra Jadeja", "Sam Curran", "Dwayne Bravo", "Shardul Thakur", "Deepak Chahar", "Imran Tahir"],
+    "Royal Challengers Bangalore": ["Virat Kohli (c)", "Devdutt Padikkal", "Glenn Maxwell", "AB de Villiers (wk)", "Washington Sundar", "Daniel Christian", "Kyle Jamieson", "Harshal Patel", "Navdeep Saini", "Mohammed Siraj", "Yuzvendra Chahal"]
+  },
+  "result": {
+    "update": "chennai super kings won by 69 runs",
+    "winning_margin": "69 runs",
+    "winning_team": "chennai super kings"
+  },
+  "toss_result": {
+    "chose_to": "bat",
+    "update": "Chennai Super Kings won the toss and opt to bat",
+    "winning_team": "Chennai Super Kings"
+  }
+}

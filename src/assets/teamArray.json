@@ -1,0 +1,33 @@
+{
+  "teams": [{
+      "team": "Chennai Super Kings",
+      "players": ["Faf du Plessis", " Ruturaj Gaikwad", " Suresh Raina", " Ambati Rayudu", " N. Jagadeesan (wk)", " Robin Uthappa", " Dhoni (c) (wk)", " Ravindra Jadeja", " Sam Curran", " Dwayne Bravo", " Karn Sharma", " R. Sai Kishore", " Mitchell Santner", " Imran Tahir", " Deepak Chahar", " Shardul Thakur", " Lungi Ngidi", " Josh Hazlewood", " KM Asif", " Moeen Ali", " K Gowtham", " Cheteshwar Pujara", " M Harisankar Reddy", " K. Bhagath Varma", " C Hari Nishanth"]
+    },
+    {
+      "team": "Delhi Capitals",
+      "players": ["Shreyas Iyer (c)", " Shikhar Dhawan", " Prithvi Shaw", " Ajinkya Rahane", " Rishabh Pant (wk)", " Shimron Hetmyer", " Marcus Stoinis", " Chris Woakes", " R Ashwin", " Axar Patel", " Amit Mishra", " Lalit Yadav", " Pravin Dubey", " Kagiso Rabada", " Anrich Nortje", " Ishant Sharma", " Avesh Khan", " Steve Smith", " Umesh Yadav", " Ripal Patel", " Vishnu Vinod", " Lukman Meriwala", " M Siddarth", " Tom Curran", " Sam Billings"]
+    },
+    {
+      "team": "Sunrisers Hyderabad",
+      "players": ["David Warner (c)", " Kane Williamson", " Jonny Bairstow (wk)", " Manish Pandey", " Sreevats Goswami (wk)", " Wriddhiman Saha (wk)", " Priyam Garg", " Vijay Shankar", " Abhishek Sharma", " Abdul Samad", " Virat Singh", " Mitchell Marsh", " Jason Holder", " Mohammad Nabi", " Rashid Khan", " Shahbaz Nadeem", " Bhuvneshwar Kumar", " T. Natarajan", " Sandeep Sharma", " Khaleel Ahmed", " Siddarth Kaul", " Basil Thampi", " Jagadeesha Suchith", " Kedar Jadhav", " Mujeeb-ur-Rahman"]
+    },
+    {
+      "team": "Kolkata Knight Riders",
+      "players": ["Shubman Gill", " Nitish Rana", " Tim Seifert (wk)", " Rahul Tripathi", " Rinku Singh", " Dinesh Karthik (wk)", " Eoin Morgan (c)", " Andre Russell", " Sunil Narine", " Varun CV", " Kuldeep Yadav", " Pat Cummins", " Lockie Ferguson", " Kamlesh Nagarkoti", " Shivam Mavi", " Sandeep Warrier", " Prasidh Krishna", " Shakib Al Hasan", " Sheldon Jackson", " Vaibhav Arora", " Karun Nair", " Harbhajan Singh", " Ben Cutting", " Venkatesh Iyer", " Pawan Negi"]
+    },
+    {
+      "team": "Rajasthan Royals",
+      "players": ["Sanju Samson (c&wk)", " Jos Buttler (wk)", " Ben Stokes", " Yashasvi Jaiswal", " Manan Vohra", " Anuj Rawat", " Riyan Parag", " David Miller", " Rahul Tewatia", " Mahipal Lomror", " Shreyas Gopal", " Mayank Markande", " Jofra Archer", " Andrew Tye", " Jaydev Unadkat", " Kartik Tyagi", " Shivam Dube", " Chris Morris", " Mustafizur Rahman", " Chetan Sakariya", " KC Cariappa", " Liam Livingstone", " Kuldip Yadav", " Akash Singh"]
+    },
+    {
+      "team": "Punjab Kings",
+      "players": ["KL Rahul (c\/wk)", " Mayank Agarwal", " Chris Gayle", " Mandeep Singh", " Prabsimran Singh", " Nicholas Pooran (wk)", " Sarfaraz Khan", " Deepak Hooda", " Murugan Ashwin", " Ravi Bishnoi", " Harpreet Brar", " Mohammed Shami", " Arshdeep Singh", " Ishan Porel", " Darshan Nalkande", " Chris Jordan", " Dawid Malan", " Jhye Richardson", " Shahrukh Khan", " Riley Meredith", " Moises Henriques", " Jalaj Saxena", " Utkarsh Singh", " Fabian Allen ", " Saurabh Kumar"]
+    }, {
+      "team": "Mumbai Indians",
+      "players": ["Rohit Sharma (c)", " Quinton de Kock (wk)", " Ishan Kishan (wk)", " Suryakumar Yadav", " Chris Lynn", " Saurabh Tiwary", " Anmolpreet Singh", " Aditya Tare (wk)", " Kieron Pollard", " Hardik Pandya", " Krunal Pandya", " Rahul Chahar", " Jayant Yadav", " Anukul Roy", " Jasprit Bumrah", " Trent Boult", " Dhawal Kulkarni", " Mohsin Khan", " Adam Milne", " Nathan Coulter-Nile", " Piyush Chawla", " James Neesham", " Yudhvir Charak", " Marco Jansen", " Arjun Tendulkar"]
+    }, {
+      "team": "Royal Challengers Bangalore",
+      "players": ["Virat Kohli (c)", " Devdutt Padikkal", " Finn Allen (wk)", " AB de Villiers (wk)", " Pavan Deshpande", " Washington Sundar", " Daniel Sams", " Yuzvendra Chahal", " Adam Zampa", " Shahbaz Ahmed", " Mohammed Siraj", " Navdeep Saini", " Kane Richardson", " Harshal Patel", " Glenn Maxwell", " Sachin Baby", " Rajat Patidar", " Mohammed Azharuddeen", " Kyle Jamieson", " Daniel Christian", " Suyash Prabhudessai", " K.S. Bharat"]
+    }
+  ]
+}
