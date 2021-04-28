@@ -17,7 +17,7 @@ import * as D3 from 'd3';
   styleUrls: ['./play-games.component.css']
 })
 export class PlayGamesComponent implements OnInit {
-
+  panelOpenState = false;
   constructor(private service: SharedServiceService) { }
   public matchSchedule: BehaviorSubject<any> = new BehaviorSubject<any>(null);
   todayMatch = [];
